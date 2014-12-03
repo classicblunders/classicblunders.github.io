@@ -77,8 +77,8 @@ kramdown:
     coderay_css: class
 
 prose:
-  siteurl: 'http://hmfaysal.github.io/'
-  relativeLinks: 'http://hmfaysal.github.io/links.jsonp'
+  siteurl: 'http://classicblunders.github.io/'
+  relativeLinks: 'http://classicblunders.github.io/links.jsonp'
   media: 'images/post'
   metadata:
     _posts:
