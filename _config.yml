@@ -1,20 +1,24 @@
 title:            HMFAYSAL
-description:      "An Engineer's Diary"
-locale:           en_US
-logo:             logo.png
+description:      "Omega: The Coolest Theme for Jekyll"
+logo:             omikron.png
 disqus_shortname: hmfaysal
+# Assign a default image for your site's header and footer
+default_bg:       default_bg1.jpg
+search:           true
 share:            true
-readtime:		  true
-wpm:			  200
-dropcap:		  true
-theme:			  blue
-nprogress:        true
-header_bg:        farcry3.jpg
-author_bg:		  newyork.jpg
+# Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
+readtime:         true
+# Specify the average Words per minute. If not defined, 180 will be used
+wpm:				      200
+# Turn on or off the fin animations in the header and footer
+triangleheader:		true
+animated_fins:	  true
+# Specify the fin color in RGB value
+fin_color:        "255,255,255"
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
-url:              http://classicblunders.github.io
+url:       		   http://classicblunders.github.io
 
 # Owner/author information
 owner:
@@ -22,18 +26,22 @@ owner:
   avatar:         hmfaysal.jpg
   email:          hmfaysal@alum.mit.edu
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    MIT&#39;12 EECS Alum. UPenn&#39;15 ESE PhD Candidate. Hossain Mohammad Faysal is an Electrical Engineer and a Mathematician based in Philadelphia, Pennsylvania. His interests are anything that&#8217;s related to math, from math itself to programming languages to music to physics to engineering to philosophy.
+  description:    Hossain Mohammad Faysal is an Electrical Engineer and a Mathematician based in Doha, Qatar. His interests are anything that&#8217;s related to math, from math itself to programming languages to music to physics to engineering to philosophy.
   # Social networking links used in footer. Update and remove as you like.
   twitter:        hmfaysal
   facebook:       hmfaysal
-  github:         hmfaysal      
-  instagram:      hmfaysal
+  github:         hmfaysal
+  stackexchange:  https://stackexchange.com/users/3402032/hossain-mohd-faysal
+  linkedin:       https://www.linkedin.com/pub/firstname-lastname/12/345/678
+  instagram:      
+  flickr:         
+  tumblr:         
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    102602916593522619858
+  google_plus:    https://plus.google.com/u/0/102602916593522619858
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   UA-39365944-7
-google_verify:      1oh55StBm-EjdVgFomDCM4Dt1iSrJhB5a776bHEXojU
+google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
 
@@ -44,19 +52,21 @@ links:
     url: /
     external: false
     icon: home
-  - title: Featured Posts
-    url: /featured
+  - title: <i class="icon-book"></i> Documentation
+    url: /documentation
   - title: Categories
     url: /categories
-  - title: About
-    url: /about
+  - title: Tags
+    url: /tags
+  - title: Faysal who?
+    url: /hossain-mohd-faysal
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Dhaka
+timezone:    America/New_York
 future:      true
 highlighter: pygments
 markdown:    kramdown
-paginate:    5
+paginate:    6
 paginate_path: "page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
@@ -77,9 +87,10 @@ kramdown:
     coderay_css: class
 
 prose:
+  rooturl: '_posts'
   siteurl: 'http://classicblunders.github.io/'
   relativeLinks: 'http://classicblunders.github.io/links.jsonp'
-  media: 'images/post'
+  media: 'images'
   metadata:
     _posts:
       - name: "published"
@@ -92,6 +103,22 @@ prose:
           element: "hidden"
           label: "Layout"
           value: "post"
+      - name: "type"
+        field:
+          element: "select"
+          label: "Select Post Type"
+          placeholder: "Choose your type"
+          options:
+            - name: "Standard"
+              value: 
+            - name: "Quote"
+              value: quote
+            - name: "Status"
+              value: status
+            - name: "Photo"
+              value: photo
+            - name: "Video"
+              value: video
       - name: "title"
         field:
           label: "Title"
@@ -102,6 +129,11 @@ prose:
           element: "text"
           label: "Description"
           placeholder: "Enter Post Description"
+      - name: "headline"
+        field:
+          element: "text"
+          label: "beadline"
+          placeholder: "Enter Post Headline"
       - name: "modified"
         field:
           element: "text"
@@ -116,20 +148,14 @@ prose:
           options:
             - name: "Personal"
               value: personal
-            - name: "Engineering"
-              value: engineering
-            - name: "Mathematics"
-              value: mathematics
-            - name: "Physics"
-              value: physics
-            - name: "Psychology"
-              value: psychology
-            - name: "Photography"
-              value: photography
-            - name: "Interesting"
-              value: interesting
             - name: "Web-Development"
               value: webdevelopment
+            - name: "Interesting"
+              value: interesting
+            - name: "Status"
+              value: status
+            - name: "Quotes"
+              value: quotes
           alterable: true
       - name: "tags"
         field:
@@ -141,29 +167,21 @@ prose:
           element: "text"
           label: "Featured Image"
           placeholder: "somefile.jpg"
-      - name: "covereffect"
-        field:
-          element: "select"
-          label: "Select Cover Effect"
-          placeholder: "Choose Type"
-          value:
-          options:
-            - name: "None"
-              value: 
-            - name: "slice"
-              value: slice
-            - name: "push"
-              value: push
-      - name: "location"
+      - name: "imagecredit"
         field:
           element: "text"
-          label: "Location"
-          placeholder: "Some Place"
-      - name: "locationgps"
+          label: "Image Credit"
+          placeholder: "some guy"
+      - name: "imagecreditlink"
         field:
           element: "text"
-          label: "Location GPS point"
-          placeholder: "long, lat"
+          label: "Credit link for the image"
+          placeholder: "http://somewebsite.com"
+      - name: "video"
+        field:
+          element: "text"
+          label: "Insert Youtube Link"
+          placeholder: "http://youtube.com/somevideo"
       - name: "mathjax"
         field:
           element: "checkbox"
@@ -179,30 +197,6 @@ prose:
           element: "checkbox"
           label: "Comments"
           value: false
-      - name: "chart"
-        field:
-          element: "checkbox"
-          label: "Chart?"
-          value: false
-      - name: "charttype"
-        field:
-          element: "select"
-          label: "Select Chart Type"
-          placeholder: "Choose Type"
-          value:
-          options:
-            - name: "None"
-              value: 
-            - name: "pie"
-              value: pie
-            - name: "serial"
-              value: serial
-      - name: "jquery"
-        field:
-          element: "checkbox"
-          label: "Require JQuery?"
-          value: false
-
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
