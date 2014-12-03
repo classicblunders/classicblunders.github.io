@@ -1,10 +1,10 @@
-title:            HMFAYSAL
-description:      "Omega: The Coolest Theme for Jekyll"
+title:            ADML1
+description:      "Abner Doubleday Memorial League 1"
 logo:             uhd-gehrig.png
 # omikron.png
-disqus_shortname: hmfaysal
+disqus_shortname: adml1
 # Assign a default image for your site's header and footer
-default_bg:       default_bg1.jpg
+default_bg:       05534755_wp.jpg
 search:           true
 share:            true
 # Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
@@ -23,9 +23,9 @@ url:       		   http://classicblunders.github.io
 
 # Owner/author information
 owner:
-  name:           Hossain Mohd Faysal
-  avatar:         hmfaysal.jpg
-  email:          hmfaysal@alum.mit.edu
+  name:           Derick Ochi Chan
+  avatar:         Oscar_the_Grouch.jpg
+  email:          derick@unterrible.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Hossain Mohammad Faysal is an Electrical Engineer and a Mathematician based in Doha, Qatar. His interests are anything that&#8217;s related to math, from math itself to programming languages to music to physics to engineering to philosophy.
   # Social networking links used in footer. Update and remove as you like.
