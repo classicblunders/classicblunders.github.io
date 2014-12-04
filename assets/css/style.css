@@ -3794,7 +3794,7 @@ button.menu-button {
   width: 50px;
   height: 50px;
   z-index: 1000;
-  font-size: 40px;
+  font-size: 30px;
   padding: 0;
   outline: 0;
   border: 0;
@@ -3984,7 +3984,7 @@ a#slide.slide{
     }
 
 body.slide{
-    left:298px;
+    left:180px;
     overflow:hidden
     }
 
@@ -4001,7 +4001,7 @@ body.slide{
 
 #fade.slide{
     pointer-events:auto;
-    left:298px;
+    left:180px;
     background:rgba(0,0,0,.2)
     }
 
@@ -4028,7 +4028,7 @@ body.slide{
 @media screen and (max-width:700px){
 
     #fade.slide{
-        left:298px
+        left:180px
         }
 
     /*a#slide.slide{*/
