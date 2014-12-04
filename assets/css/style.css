@@ -3881,7 +3881,7 @@ a#slide.slide:after{
     vertical-align:middle
     }
 
-a#slide:hover:after{
+a#slide:hover::after{
     background:#39c492
     }
 
