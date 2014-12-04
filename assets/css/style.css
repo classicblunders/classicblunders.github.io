@@ -3849,12 +3849,12 @@ body {
 a#slide{
     position:fixed;
     display:block;
-    width:80px;
-    height:80px;
+    width:120px;
+    height:50px;
     top:10px;
     left:10px;
     text-align:center;
-    font:22px/80px "icon";
+    font:40px "icon";
     color:#fff;
     background:#262626;
     border-radius:3px;
@@ -3866,18 +3866,18 @@ a#slide:hover{
     }
 
 a#slide:after{
-    content:"A"
+    content:"Menu"
     }
 
 a#slide.slide:after{
     position:absolute;
-    content:"X";
-    top:11px;
+    content:"Close";
+    top:0px;
     left:50%;
     width:80px;
     height:80px;
-    margin:0 0 0 -20px;
-    font:18px "icon" !important;
+    margin:0 0 0 -45px;
+    font:40px "icon" !important;
     vertical-align:middle
     }
 
