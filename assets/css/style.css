@@ -3881,8 +3881,17 @@ a#slide.slide:after{
     vertical-align:middle
     }
 
-a#slide:hover::after{
-    background:#39c492
+a#slide.slide:hover:after{
+    position:absolute;
+    content:"Close";
+    background:#39c492;
+    top:0px;
+    left:50%;
+    width:80px;
+    height:80px;
+    margin:0 0 0 -45px;
+    font:40px "icon" !important;
+    vertical-align:middle
     }
 
 /*      Sidebar     */
