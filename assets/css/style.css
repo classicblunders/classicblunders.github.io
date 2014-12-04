@@ -3800,8 +3800,8 @@ button.menu-button {
   border: 0;
   text-align: center;
   vertical-align: middle;
-  background-color: #262626;
-  color: #fff
+  background-color: #fff;
+  color: #262626
 }
 .image-credit {
   position: absolute;
@@ -3855,8 +3855,8 @@ a#slide{
     left:10px;
     text-align:center;
     font:40px "icon";
-    color:#fff;
-    background:#262626;
+    color:#262626;
+    background:#fff;
     border-radius:3px;
     z-index:31
     }
@@ -3979,7 +3979,7 @@ a#slide.slide:after{
     }
 
 a#slide.slide{
-    left:308px;
+    left:190px;
     pointer-events:none
     }
 
