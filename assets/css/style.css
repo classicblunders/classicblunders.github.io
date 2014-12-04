@@ -3791,10 +3791,10 @@ button.menu-button {
   position: absolute;
   top: 10px;
   right: 10px;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   z-index: 1000;
-  font-size: 16px;
+  font-size: 40px;
   padding: 0;
   outline: 0;
   border: 0;
@@ -3872,7 +3872,7 @@ a#slide:after{
 a#slide.slide:after{
     position:absolute;
     content:"Close";
-    top:0px;
+    top:5px;
     left:50%;
     width:80px;
     height:80px;
@@ -3887,10 +3887,10 @@ a#slide.slide:after{
     position:fixed;
     overflow-y:scroll;
     height:100%;
-    width:298px;
+    width:180px;
     padding:40px 30px 0;
     top:0;
-    left:-298px;
+    left:-180px;
     background:#191918;
     z-index:20
     }
