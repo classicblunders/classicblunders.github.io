@@ -3861,7 +3861,7 @@ a#slide{
     z-index:31
     }
 
-a#slide:hover{
+a#slide.animated.fade:hover{
     background:#39c492
     }
 
@@ -3872,19 +3872,6 @@ a#slide:after{
 a#slide.slide:after{
     position:absolute;
     content:"Close";
-    top:0px;
-    left:50%;
-    width:80px;
-    height:80px;
-    margin:0 0 0 -45px;
-    font:40px "icon" !important;
-    vertical-align:middle
-    }
-
-a#slide.slide:hover:after{
-    position:absolute;
-    content:"Close";
-    background:#39c492;
     top:0px;
     left:50%;
     width:80px;
