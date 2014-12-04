@@ -3862,9 +3862,9 @@ a#slide{
     z-index:31
     }
 
-a#slide.animated.fade:hover{
+/*a#slide.animated.fade:hover{
     background:#39c492
-    }
+    }*/
 
 a#slide:after{
     content:"Menu"
@@ -3976,18 +3976,18 @@ a#slide.slide:after{
 -webkit-animation-delay:.5s;}.fade{-webkit-animation-name:fade;-moz-animation-name:fade;-o-animation-name:fade;animation-name:fade}
 
 #sidebar.slide{
-    left:0
+    left:180px
     }
 
 a#slide.slide{
-    /*left:190px;*/
-    left:10px;
-    /*pointer-events:none*/
+    left:190px;
+    /*left:10px;*/
+    pointer-events:none
     }
 
 body.slide{
-    /*left:180px;*/
-    left:0px;
+    left:180px;
+    /*left:0px;*/
     overflow:hidden
     }
 
@@ -4004,8 +4004,8 @@ body.slide{
 
 #fade.slide{
     pointer-events:auto;
-    /*left:180px;*/
-    left:0px;
+    left:180px;
+    /*left:0px;*/
     background:rgba(0,0,0,.2)
     }
 
@@ -4032,8 +4032,8 @@ body.slide{
 @media screen and (max-width:700px){
 
     #fade.slide{
-        /*left:180px*/
-        left:0px
+        left:180px;
+        /*left:0px*/
         }
 
     /*a#slide.slide{*/
