@@ -3866,14 +3866,13 @@ a#slide:hover{
     }
 
 a#slide:after{
-    content:"Menu";
-    top:2px
+    content:"Menu"
     }
 
 a#slide.slide:after{
     position:absolute;
     content:"Close";
-    top:2px;
+    top:0px;
     left:50%;
     width:80px;
     height:80px;
@@ -3882,7 +3881,7 @@ a#slide.slide:after{
     vertical-align:middle
     }
 
-a#slide.slide:hover{
+#slide:hover{
     background:#39c492
     }
 
