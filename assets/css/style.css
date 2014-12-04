@@ -3976,7 +3976,7 @@ a#slide.slide:after{
 -webkit-animation-delay:.5s;}.fade{-webkit-animation-name:fade;-moz-animation-name:fade;-o-animation-name:fade;animation-name:fade}
 
 #sidebar.slide{
-    left:180px
+    left:0
     }
 
 a#slide.slide{
