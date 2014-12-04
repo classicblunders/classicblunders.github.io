@@ -2429,11 +2429,12 @@ input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-se
 
 .search-form .icon-remove-sign {
     position: absolute;
-    top: .6rem;
+    top: 0rem;
     right: 1rem;
     z-index: 1;
     display: block;
     color: #fff;
+    font-size: 32px;
     text-align: center;
     cursor: pointer;
 }
@@ -3887,10 +3888,10 @@ a#slide.slide:after{
     position:fixed;
     overflow-y:scroll;
     height:100%;
-    width:180px;
+    width:220px;
     padding:40px 30px 0;
     top:0;
-    left:-180px;
+    left:-220px;
     background:#191918;
     z-index:20
     }
@@ -3921,7 +3922,7 @@ a#slide.slide:after{
 
 #sidebar #navigation li a{
     padding:0 0 18px;
-    font:700 16px/1em "Cambria";
+    font:700 28px/1.75em "Cambria";
     text-transform: uppercase;;
     color:#b3b3b1
     }
@@ -3979,12 +3980,14 @@ a#slide.slide:after{
     }
 
 a#slide.slide{
-    left:190px;
-    pointer-events:none
+    /*left:190px;*/
+    left:10px;
+    /*pointer-events:none*/
     }
 
 body.slide{
-    left:180px;
+    /*left:180px;*/
+    left:0px;
     overflow:hidden
     }
 
@@ -4001,7 +4004,8 @@ body.slide{
 
 #fade.slide{
     pointer-events:auto;
-    left:180px;
+    /*left:180px;*/
+    left:0px;
     background:rgba(0,0,0,.2)
     }
 
@@ -4028,7 +4032,8 @@ body.slide{
 @media screen and (max-width:700px){
 
     #fade.slide{
-        left:180px
+        /*left:180px*/
+        left:0px
         }
 
     /*a#slide.slide{*/

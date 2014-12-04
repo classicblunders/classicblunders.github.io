@@ -29,11 +29,13 @@ owner:
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        derickety
+  twitter:        
+  # derickety
   facebook:       
   github:         derickc
   stackexchange:  
-  linkedin:       https://www.linkedin.com/pub/derick-chan/1/483/825
+  linkedin:       
+  # https://www.linkedin.com/pub/derick-chan/1/483/825
   instagram:      
   flickr:         
   tumblr:         
