@@ -3866,19 +3866,24 @@ a#slide:hover{
     }
 
 a#slide:after{
-    content:"Menu"
+    content:"Menu";
+    top:2px
     }
 
 a#slide.slide:after{
     position:absolute;
     content:"Close";
-    top:5px;
+    top:2px;
     left:50%;
     width:80px;
     height:80px;
     margin:0 0 0 -45px;
     font:40px "icon" !important;
     vertical-align:middle
+    }
+
+a#slide.slide:hover{
+    background:#39c492
     }
 
 /*      Sidebar     */
