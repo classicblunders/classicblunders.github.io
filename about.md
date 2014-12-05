@@ -1,10 +1,8 @@
 ---
 layout: page
-permalink: /about/index.html
 title: Hossain Mohd Faysal
 tags: [Hossain, Mohd, Faysal, hmfaysal]
-image:
-  feature: Hossain-Mohd-Faysal.jpg
+imagefeature: Hossain-Mohd-Faysal.jpg
 ---
 <figure>
   <img src="{{ site.url }}/images/hossain-faysal.jpg" alt="Hossain Mohammad Faysal">
