@@ -61,8 +61,8 @@ links:
     url: /categories
   - title: Tags
     url: /tags
-  - title: About
-    url: /about
+  # - title: About
+  #  url: /about
   # - title: Faysal who?
     # url: /hossain-mohd-faysal
 
