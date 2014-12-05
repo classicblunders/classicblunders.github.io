@@ -4027,7 +4027,7 @@ body.slide{
         width:700px
         }
     
-    }
+}
 
 @media screen and (max-width:700px){
 
@@ -4049,6 +4049,7 @@ body.slide{
     #permalink .permalink-box{
         width:90%
         }
+}
 
 
 @media screen and (max-width:500px){
@@ -4056,6 +4057,7 @@ body.slide{
     a#slide{
         position:absolute    
         }
+}
 
 
 /*      End-Responsive      */
