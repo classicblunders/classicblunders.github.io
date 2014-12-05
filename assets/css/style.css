@@ -3986,7 +3986,7 @@ a#slide.slide{
     }
 
 body.slide{
-    left:180px;
+    left:220px;
     /*left:0px;*/
     overflow:hidden
     }
@@ -4004,7 +4004,7 @@ body.slide{
 
 #fade.slide{
     pointer-events:auto;
-    left:180px;
+    left:220px;
     /*left:0px;*/
     background:rgba(0,0,0,.2)
     }
@@ -4032,7 +4032,7 @@ body.slide{
 @media screen and (max-width:700px){
 
     #fade.slide{
-        left:180px;
+        left:220px;
         /*left:0px*/
         }
 
