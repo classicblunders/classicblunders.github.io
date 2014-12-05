@@ -3848,7 +3848,7 @@ body {
 /*      End-Setting     */
 
 a#slide{
-    position:fixed;
+    position:absolute;
     display:block;
     width:120px;
     height:50px;
@@ -3980,7 +3980,7 @@ a#slide.slide:after{
     }
 
 a#slide.slide{
-    left:190px;
+    left:10px;
     /*left:10px;*/
     pointer-events:none
     }
