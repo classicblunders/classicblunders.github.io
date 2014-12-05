@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /about/
 title: Hossain Mohd Faysal
 tags: [Hossain, Mohd, Faysal, hmfaysal]
 imagefeature: Hossain-Mohd-Faysal.jpg
