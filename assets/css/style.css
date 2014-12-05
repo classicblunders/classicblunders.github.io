@@ -3888,10 +3888,10 @@ a#slide.slide:after{
     position:fixed;
     overflow-y:scroll;
     height:100%;
-    width:190px;
+    width:180px;
     padding:10px 10px 0;
     top:0;
-    left:-190px;
+    left:-180px;
     background:#191918;
     z-index:20
     }
@@ -3980,13 +3980,13 @@ a#slide.slide:after{
     }
 
 a#slide.slide{
-    left:200px;
+    left:190px;
     /*left:10px;*/
     pointer-events:none
     }
 
 body.slide{
-    left:190px;
+    left:180px;
     /*left:0px;*/
     overflow:hidden
     }
@@ -4004,7 +4004,7 @@ body.slide{
 
 #fade.slide{
     pointer-events:auto;
-    left:190px;
+    left:180px;
     /*left:0px;*/
     background:rgba(0,0,0,.2)
     }
@@ -4032,7 +4032,7 @@ body.slide{
 @media screen and (max-width:700px){
 
     #fade.slide{
-        left:190px;
+        left:180px;
         /*left:0px*/
         }
 
