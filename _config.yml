@@ -1,6 +1,7 @@
 title:            ADML1
 description:      "Abner Doubleday Memorial League 1"
-logo:             uhd-ruth.png
+# update logo.html with list of rotating logos
+logo:             logo-ruth.png
 # omikron.png
 disqus_shortname: adml1
 share:            true
@@ -19,7 +20,8 @@ fin_color:        "255,255,255"
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
-url:       		   http://classicblunders.github.io
+# url:       		    http://classicblunders.github.io
+url:              http://localhost:4000
 
 # Owner/author information
 owner:

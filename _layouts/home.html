@@ -36,7 +36,8 @@
         <div class="container">
             <a class="brand light" href="{{ site.url }}" role="banner" itemprop="url">
 
-                {% if site.logo %}<img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" />{% endif %}
+                <!-- {% if site.logo %}<img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" />{% endif %} -->
+                {% if site.logo %}{% include logo.html %}{% endif %}
 
             <h1 class="blog-title light" itemprop="name">
                 {{ site.title }}
