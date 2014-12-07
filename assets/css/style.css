@@ -4017,9 +4017,22 @@ body.slide{
 /*      End-Animation       */
 
 
+/*Tables*/
+
+table, thead, tr, th, td {
+  border: 2px solid #dbdbdc;
+}
+
+td,
+th {
+  padding: 0 10px;
+}
+
+
 /*      Responsive      */
 
 @media screen and (max-width:1140px){
+/*@media (max-width: @screen-md-max){*/
     
     #header,
     #posts-container,
@@ -4033,6 +4046,7 @@ body.slide{
 }
 
 @media screen and (max-width:700px){
+/*@media (max-width: @screen-xs-max){*/
 
     #fade.slide{
         left:180px;
@@ -4052,6 +4066,12 @@ body.slide{
     #permalink .permalink-box{
         width:90%
         }
+
+    td,
+    th {
+      padding: 0 3px;
+      font-size: 12px;
+    }
 }
 
 
@@ -4065,13 +4085,3 @@ body.slide{
 
 /*      End-Responsive      */
 
-/*Tables*/
-
-table, thead, tr, th, td {
-  border: 2px solid #dbdbdc;
-}
-
-td,
-th {
-  padding: 0 10px;
-}
