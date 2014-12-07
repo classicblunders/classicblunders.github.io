@@ -110,7 +110,8 @@ blockquote:before {
 }
 .cursive {
   font-family: 'Sacramento', cursive;
-  color: #17e4d8;
+  /*color: #17e4d8;*/
+  color: #4572bd;
   font-size: 34px;
   text-align: center;
 }
@@ -2386,7 +2387,7 @@ input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-se
 .search-form {
     position: relative;
     top: 0;
-    left: -200px;
+    left: -1600px;
     z-index: 9002;
     width: 100%;
     opacity: 0;
@@ -3922,7 +3923,9 @@ a#slide.slide:after{
 
 #sidebar #navigation li a{
     padding:0 0 18px;
-    font:700 24px/2em "Cambria";
+    font:700 20px/2.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    /*font-size: 22px;*/
     text-transform: uppercase;;
     color:#b3b3b1
     }
@@ -4061,3 +4064,14 @@ body.slide{
 
 
 /*      End-Responsive      */
+
+/*Tables*/
+
+table, thead, tr, th, td {
+  border: 2px solid #dbdbdc;
+}
+
+td,
+th {
+  padding: 0 10px;
+}
