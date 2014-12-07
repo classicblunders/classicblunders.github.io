@@ -59,6 +59,12 @@ links:
     icon: home
   # - title: <i class="icon-book"></i> Documentation
     # url: /documentation
+  - title: Constitution
+    url: /constitution
+  - title: Members List
+    url: /members
+  - title: Trades
+    url: /trades
   - title: Categories
     url: /categories
   - title: Tags
