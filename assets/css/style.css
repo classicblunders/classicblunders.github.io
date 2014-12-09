@@ -415,9 +415,10 @@ blockquote:before {
 .overlay:after {
   background-color: rgba(0, 0, 0, 0.65);
 }
-#masthead {
+/*#masthead {
   background-color: #1e1e1f;
-}
+  background-attachment: fixed;
+}*/
 #footer,
 #masthead {
   color: #fff;
@@ -452,6 +453,7 @@ html {
 /* - Blog and post headers - */
 #masthead {
   position: relative;
+  background-attachment: fixed;
   display: table;
   text-align: center;
   width: 100%;
