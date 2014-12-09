@@ -413,7 +413,7 @@ blockquote:before {
   background-color: rgba(255, 255, 255, 0.15);
 }
 .overlay:after {
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 /*#masthead {
   background-color: #1e1e1f;
@@ -449,11 +449,14 @@ body,
 html {
   height: 100%;
   max-height: 100%;
+  background-color: #f7f7f7;
 }
 /* - Blog and post headers - */
 #masthead {
   position: relative;
-  background-attachment: fixed;
+  background-position: left top;
+  background-attachment: scroll;
+  /*background-attachment: fixed;*/
   display: table;
   text-align: center;
   width: 100%;
@@ -649,23 +652,27 @@ html {
 /* - Theme Backgrounds - */
 .blog-background {
   background-repeat: no-repeat;
-  background-position: center;
+  /*background-position: center;*/
+  background-position: left top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
+  /*background-attachment: fixed;*/
 }
-@media (max-width: 1024px) {
+/*@media (max-width: 1024px) {
   .blog-background {
     background-attachment: scroll;
   }
-}
+}*/
 /* - Inner allignment - */
 .inner {
   display: table-cell;
-  vertical-align: top;
   position: relative;
+  /*background-color: #000;*/
+  /*display: block;*/
+  vertical-align: top;
   bottom: 0;
   left: 0;
   clear: both;
@@ -677,11 +684,11 @@ html {
 .align-bottom .inner {
   vertical-align: bottom;
 }
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
   #masthead .inner {
     top: 0%;
   }
-}
+}*/
 /* - Overlay - */
 .overlay:after {
   content: "";
