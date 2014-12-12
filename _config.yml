@@ -101,8 +101,8 @@ kramdown:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://classicblunders.github.io/'
-  relativeLinks: 'http://classicblunders.github.io/links.jsonp'
+  siteurl: 'http://classicblunders.com/'
+  relativeLinks: 'http://classicblunders.com/links.jsonp'
   media: 'images'
   metadata:
     _posts:
