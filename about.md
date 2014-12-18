@@ -13,8 +13,7 @@ imagefeature: GoldenGate.jpg
     -->
 </figure>
 
-
-Email: derick at unterrible dot com
-
 > Never delegate understanding.
 > <small>Charles Eames</small>
+
+Email: derick at unterrible dot com

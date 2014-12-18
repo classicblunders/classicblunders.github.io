@@ -4096,6 +4096,12 @@ th {
     }
 }
 
+/* Parallax.js*/
+img {
+  display: block;
+  width: 100%;
+}
+
 
 /*@media screen and (max-width:500px){
     
