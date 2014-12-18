@@ -1,16 +1,20 @@
 ---
-layout: pageminimal
+layout: page
 permalink: /about/
-title: About
+title: Derick
 tags: [Derick, derickc, about, website]
-imagefeature: cy-young.jpg
+imagefeature: GoldenGate.jpg
 ---
+<!--
 <figure>
   <img src="{{ site.url }}/images/DSC_0254.jpg" alt="Derick">
-  <figcaption>Derick</figcaption>
+  <figcaption>Email: derick at unterrible dot com</figcaption>
 </figure>
+-->
 
-A round peg in a square hole.
+Just a round peg in a square hole.
+
+Email: derick at unterrible dot com
 
 > Never delegate understanding.
-> - Charles Eames.
+> <small>Charles Eames</small>

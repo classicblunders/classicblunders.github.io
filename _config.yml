@@ -1,12 +1,12 @@
-title:            ADML1
-description:      "Abner Doubleday Memorial League 1"
+title:            Classic Blunders
+description:      INCONCEIVABLE!
 # update logo.html with list of rotating logos
-logo:             logo-ruth.png
+logo:
 # omikron.png
 disqus_shortname: classicblunders
 share:            true
 # Assign a default image for your site's header and footer
-default_bg:       05534755_wp.jpg
+default_bg:       jeffrey_betts_nyc_graffiti.jpg
 search:           true
 # Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
 readtime:         true
@@ -26,18 +26,17 @@ url:       		    http://classicblunders.com
 # Owner/author information
 owner:
   name:           Derick
-  avatar:         Oscar_the_Grouch.jpg
+  avatar:         Profile.jpg
   email:          derick@unterrible.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
+  twitter:        derickety
   # derickety
   facebook:       
   github:         derickc
   stackexchange:  
-  linkedin:       
-  # https://www.linkedin.com/pub/derick-chan/1/483/825
+  linkedin:       https://www.linkedin.com/pub/derick-chan/1/483/825
   instagram:      
   flickr:         
   tumblr:         
@@ -59,20 +58,12 @@ links:
     icon: home
   # - title: <i class="icon-book"></i> Documentation
     # url: /documentation
-  - title: Constitution
-    url: /constitution
-  - title: Members List
-    url: /members
-  - title: Trades
-    url: /trades
   - title: Categories
     url: /categories
   - title: Tags
     url: /tags
   # - title: About
-  #  url: /about
-  # - title: Faysal who?
-    # url: /hossain-mohd-faysal
+  #   url: /about
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Los_Angeles

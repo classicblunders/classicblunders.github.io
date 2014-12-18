@@ -1,5 +1,20 @@
-<!-- <div class="post-author text-center">                       
-	        <img src="{{site.url}}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }}'s photo" itemprop="image" class="post-avatar img-circle img-responsive"/>    
+<div class="post-author text-center">
+    <div id="container" class="container">
+        <ul id="scene" class="scene">
+            <li class="layer" data-depth="0.70">
+                <img src="{{site.url}}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }}'s photo" itemprop="image" class="post-avatar img-circle img-responsive"/> 
+            </li>
+        </ul>
+    </div>
+    <script src="{{ site.url }}/assets/parallax/parallax.js"></script>
+    <script>
+
+    // Pretty simple huh?
+    var scene = document.getElementById('scene');
+    var parallax = new Parallax(scene);
+
+    </script>       
+	           
 	    <h4 class="bordered-bottom vcard author" itemprop="author" itemscope itemtype="http://schema.org/Person">By <span itemprop="name" class="fn"><a href="{{ site.url }}/about" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span></h4>
 	    <p>{{ site.owner.description }}</p>
-</div> -->
+</div>
