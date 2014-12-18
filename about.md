@@ -7,8 +7,10 @@ imagefeature: GoldenGate.jpg
 ---
 
 <figure>
-  <img src="{{ site.url }}/images/blocks.gif" alt="Derick">
-  <figcaption>A square peg in a round hole.</figcaption>
+    <img src="{{ site.url }}/images/blocks.gif" alt="Derick">
+    <!--
+        <figcaption>A square peg in a round hole.</figcaption>
+    -->
 </figure>
 
 
