@@ -5,14 +5,12 @@ title: Derick
 tags: [Derick, derickc, about, website]
 imagefeature: GoldenGate.jpg
 ---
-<!--
-<figure>
-  <img src="{{ site.url }}/images/DSC_0254.jpg" alt="Derick">
-  <figcaption>Email: derick at unterrible dot com</figcaption>
-</figure>
--->
 
-Just a round peg in a square hole.
+<figure>
+  <img src="{{ site.url }}/images/blocks.gif" alt="Derick">
+  <figcaption>A square peg in a round hole.</figcaption>
+</figure>
+
 
 Email: derick at unterrible dot com
 
