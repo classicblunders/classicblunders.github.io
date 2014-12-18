@@ -12,11 +12,11 @@
 </div>
 
 <!-- Parallax script -->
-<script src="{{ site.url }}/assets/deploy/parallax.js"></script>
+<script src="{{ site.url }}/assets/deploy/jquery.js"></script>
+<script src="{{ site.url }}/assets/deploy/jquery.parallax.js"></script>
 <script>
 
-// Pretty simple huh?
-var scene = document.getElementById('scene');
-var parallax = new Parallax(scene);
+// Yep, that's it!
+$('#scene').parallax();
 
 </script>
