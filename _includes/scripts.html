@@ -85,5 +85,15 @@ $("a#click-pages").click(function(){
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
+
+<!-- Parallax script -->
+<script src="{{ site.url }}/assets/deploy/parallax.js"></script>
+<script>
+
+// Pretty simple huh?
+var scene = document.getElementById('scene');
+var parallax = new Parallax(scene);
+
+</script> 
 {% endif %}
 {% if page.comments %}{% include disqus_comments.html %}{% endif %}

@@ -4102,6 +4102,11 @@ img {
   width: 100%;
 }
 
+.scene {
+  padding: 0;
+  margin: 0;
+}
+
 
 /*@media screen and (max-width:500px){
     
