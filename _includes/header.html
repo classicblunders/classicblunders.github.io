@@ -28,33 +28,69 @@
 {% if page.headline %}
     <div class="inner">
         <div class="container">
-            <a class="brand light" href="{{ site.url }}" role="banner" itemprop="url">
 
-                {% if site.logo %}{% include logo.html %}{% endif %}
+            <ul id="header-scene" class="scene">
+                <li class="layer" data-depth="0.70">
 
-            <h1 class="blog-title light" itemprop="name">
-                {{ site.title }}
-            </h1>
-                
-            </a>
-            <h2 class="blog-description light bordered bordered-top" itemprop="description">
-                {{ page.headline }}
-            </h2>
+                    <a class="brand light" href="{{ site.url }}" role="banner" itemprop="url">
+
+                        {% if site.logo %}<img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" />{% endif %}
+
+                    <!--
+                    {% if site.logo %}{% include logo.html %}{% endif %}
+                    -->
+
+                        <h1 class="blog-title light" itemprop="name">
+                            {{ site.title }}
+                        </h1>
+                            
+                    </a>
+                    <h2 class="blog-description light bordered bordered-top" itemprop="description">
+                        {{ page.headline }}
+                    </h2>
+                </li>
+            </ul>
+            <!-- Parallax script -->
+            <script src="{{ site.url }}/assets/deploy/jquery.js"></script>
+            <script src="{{ site.url }}/assets/deploy/jquery.parallax.js"></script>
+            <script>
+
+            // Yep, that's it!
+            $('#header-scene').parallax();
+
+            </script>
         </div>
     </div>
     {% else %}
     <div class="inner">
         <div class="container">
-            <a class="brand" href="{{ site.url }}" role="banner" itemprop="url">
 
-                <!-- {% if site.logo %}<img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" />{% endif %} -->
-                {% if site.logo %}{% include logo.html %}{% endif %}
+            <ul id="header-scene" class="scene">
+                <li class="layer" data-depth="0.70">
 
-            <h1 class="blog-title light" itemprop="name">
-                {{ site.title }}
-            </h1>
-                
-            </a>
+                    <a class="brand" href="{{ site.url }}" role="banner" itemprop="url">
+
+                            {% if site.logo %}<img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" />{% endif %}
+                        <!--
+                        {% if site.logo %}{% include logo.html %}{% endif %}
+                        -->
+                        
+                        <h1 class="blog-title light" itemprop="name">
+                            {{ site.title }}
+                        </h1>
+                        
+                    </a>
+                </li>
+            </ul>
+            <!-- Parallax script -->
+            <script src="{{ site.url }}/assets/deploy/jquery.js"></script>
+            <script src="{{ site.url }}/assets/deploy/jquery.parallax.js"></script>
+            <script>
+
+            // Yep, that's it!
+            $('#header-scene').parallax();
+
+            </script>
         </div>
     </div>
     {% endif %}

@@ -1,4 +1,37 @@
+
+<!--
 <script type="text/javascript">
    var posts = ["Macintosh_128k_transparency.png"];
     document.write('<img itemprop="logo" src="{{ site.url }}/images/' + posts[Math.floor(Math.random() * posts.length)] + '" alt="{{ site.title }} Logo" />'); 
 </script>
+-->
+
+<!--
+<div id="container">
+    <ul id="top-scene" class="scene">
+        <li class="layer" data-depth="0.30">
+        </li>
+        <li class="layer" data-depth="0.30">
+            <img itemprop="logo" src="{{site.url}}/images/sun.png">
+        </li>
+        <li class="layer" data-depth="0.80"><h1>Hello!</h1></li>
+        <li class="layer" data-depth="0.20">
+            <img itemprop="logo" src="{{site.url}}/images/cloud1.png">
+        </li>
+        <li class="layer" data-depth="0.20">
+            <img itemprop="logo" src="{{site.url}}/images/cloud2.png">
+        </li>
+    </ul>
+</div>
+-->
+
+<!-- Parallax script -->
+<!-- <script src="{{ site.url }}/assets/deploy/jquery.js"></script>
+<script src="{{ site.url }}/assets/deploy/jquery.parallax.js"></script>
+<script>
+
+// Yep, that's it!
+$('#top-scene').parallax();
+
+</script>
+ 
