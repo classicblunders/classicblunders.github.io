@@ -3,9 +3,18 @@
 <script src="{{ site.url }}/assets/js/scripts.min.js"></script>
 <script type="text/javascript" src="{{ site.url }}/assets/js/waypoints.min.js"></script>
 <script type="text/javascript" src="{{ site.url }}/assets/js/script.js"></script>
-<script type='text/javascript'>console.log("HMFaysal Omega Theme Version 2.0");</script>
-<script type='text/javascript'>console.log("https://alum.mit.edu/www/hmfaysal");</script>
 <script type='text/javascript'>$(document).ready(function(){$(".time").text(function(a,b){return Math.round(parseFloat(b))})});</script>
+
+<!-- Parallax script -->
+<script src="{{ site.url }}/assets/deploy/jquery.js"></script>
+<script src="{{ site.url }}/assets/deploy/jquery.parallax.js"></script>
+<script>
+
+$('#home-scene').parallax();
+$('#scene').parallax();
+$('#header-scene').parallax();
+
+</script>
 
 <script type="text/javascript">
 
@@ -88,3 +97,4 @@ $("a#click-pages").click(function(){
 
 {% endif %}
 {% if page.comments %}{% include disqus_comments.html %}{% endif %}
+

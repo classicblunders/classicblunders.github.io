@@ -37,8 +37,10 @@
             <a class="brand light" href="{{ site.url }}" role="banner" itemprop="url">
 
             <ul id="home-scene" class="scene">
-                <li class="layer" data-depth="0.70">
+                <li class="layer" data-depth="0.50">
+                    {% if site.logo %}
                     <img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" />
+                    {% endif %}
                     <h1 class="blog-title light" itemprop="name">
                         {{ site.title }}
                     </h1>
@@ -46,21 +48,21 @@
                         {{ site.description }}
                     </h2>
                 </li>
+            </ul>
 
                 <!-- {% if site.logo %}<img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" />{% endif %} -->
                 <!-- {% if site.logo %}{% include logo.html %}{% endif %} -->
                 
             </a>
 
-            <!-- Parallax script -->
+            <!-- Parallax script
             <script src="{{ site.url }}/assets/deploy/jquery.js"></script>
             <script src="{{ site.url }}/assets/deploy/jquery.parallax.js"></script>
             <script>
 
-            // Yep, that's it!
             $('#home-scene').parallax();
 
-            </script>
+            </script> -->
             
         </div>
     </div>
@@ -68,13 +70,18 @@
     <div class="inner">
         <div class="container">
             <a class="brand" href="{{ site.url }}" role="banner" itemprop="url">
-                
+                <ul id="home-scene" class="scene">
+                    <li class="layer" data-depth="0.50">
+                    {% if site.logo %}
                     <img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" />
+                    {% endif %}
                     <!-- {% include logo.html %} -->
 
-            <h1 class="blog-title light" itemprop="name">
-                {{ site.title }}
-            </h1>
+                    <h1 class="blog-title light" itemprop="name">
+                        {{ site.title }}
+                    </h1>
+                    </li>
+                </ul>
                 
             </a>
         </div>
