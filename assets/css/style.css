@@ -4113,6 +4113,10 @@ th {
   width: auto;
 }
 
+li.layer {
+  list-style-type: none;
+}
+
 
 /*@media screen and (max-width:500px){
     
