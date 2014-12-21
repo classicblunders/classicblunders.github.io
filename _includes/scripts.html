@@ -105,20 +105,23 @@ $('#header-scene').parallax();
   
 if (document.getElementById('homescene') == null) {
 } else {
-  var home_scene = document.getElementById('homescene');
-  var parallax = new Parallax(home_scene);
+  var homescene = document.getElementById('homescene');
+  var parallax = new Parallax(homescene);
+  console.log("homescene found!");
 }
 
 if (document.getElementById('scene') == null) {
 } else {
   var scene = document.getElementById('scene');
   var parallax = new Parallax(scene);
+  console.log("scene found!");
 }
 
 if (document.getElementById('headerscene') == null) {
 } else {
-  var header_scene = document.getElementById('headerscene');
-  var parallax = new Parallax(header_scene);
+  var headerscene = document.getElementById('headerscene');
+  var parallax = new Parallax(headerscene);
+  console.log("headerscene found!");
 }
 
 </script>
