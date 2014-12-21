@@ -98,7 +98,7 @@
     // States
     this.calibrationTimer = null;
     this.calibrationFlag = true;
-    this.enabled = true;
+    this.enabled = false;
     this.depths = [];
     this.raf = null;
 
