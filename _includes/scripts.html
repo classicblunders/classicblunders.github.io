@@ -101,12 +101,13 @@ $('#header-scene').parallax();
 
 </script>
 -->
-<script>
+<script type="text/javascript">
   
 if (document.getElementById('homescene') == null) {
 } else {
   var homescene = document.getElementById('homescene');
   var parallaxhome = new Parallax(homescene);
+  Parallax(homescene);
   console.log("homescene found!");
 }
 
@@ -114,6 +115,7 @@ if (document.getElementById('scene') == null) {
 } else {
   var scene = document.getElementById('scene');
   var parallaxscene = new Parallax(scene);
+  Parallax(scene);
   console.log("scene found!");
 }
 
@@ -121,6 +123,7 @@ if (document.getElementById('headerscene') == null) {
 } else {
   var headerscene = document.getElementById('headerscene');
   var parallaxheader = new Parallax(headerscene);
+  Parallax(headerscene);
   console.log("headerscene found!");
 }
 
