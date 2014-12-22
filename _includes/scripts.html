@@ -109,12 +109,26 @@ $("a#click-pages").click(function(){
 <script src="{{ site.url }}/assets/deploy/jquery.parallax.js"></script>
 <script>
 
-$('#home-scene').parallax();
+$('#homescene').parallax();
 $('#scene').parallax();
-$('#header-scene').parallax();
+$('#headerscene').parallax();
 
 </script>
 -->
+
+<script src="{{ site.url }}/assets/deploy/jquery.parallax.js"></script>
+
+<script>
+$(document).ready(function() {
+  console.log("hello!");
+  $('#homescene').parallax();
+  $('#scene').parallax();
+  $('#headerscene').parallax();
+});
+
+</script>
+
+<!--
 
 <script>
 
@@ -148,3 +162,4 @@ if (document.getElementById('headerscene') == null) {
 });
 
 </script>
+-->
