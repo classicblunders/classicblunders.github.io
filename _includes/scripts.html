@@ -38,12 +38,26 @@ $("a#click-pages").click(function(){
 <script>
   $(document).ready(function() {
       $('.search-field').simpleJekyllSearch({
+          // searchInput: document.getElementById('search-input'),
+          // resultsContainer: document.getElementById('results-container'),
           jsonFile : '{{ site.url }}/search.json',
           searchResults : '.search-results',
           template : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
           noResults: '<p>Nothing found.</p>'
         });
   });
+
+  // $(document).ready(function() {
+  //     $('.search-field').simpleJekyllSearch({
+  //         searchInput: document.getElementById('search-input'),
+  //         resultsContainer: document.getElementById('results-container'),
+  //         dataSource: '{{ site.url }}/search.json',
+  //         searchResultTemplate: '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
+  //         noResultsText: 'No results found',
+  //         limit: 10,
+  //         fuzzy: false,
+  //       })
+  //   });
 
   (function( $, window, undefined ) {
     
@@ -102,7 +116,9 @@ $('#header-scene').parallax();
 </script>
 -->
 
-<script type="text/javascript">
+<script>
+
+$(document).ready(function() {
 
 console.log("hello!");
   
@@ -126,5 +142,7 @@ if (document.getElementById('headerscene') == null) {
   var parallaxheader = new Parallax(headerscene);
   console.log("headerscene found!");
 }
+
+});
 
 </script>
