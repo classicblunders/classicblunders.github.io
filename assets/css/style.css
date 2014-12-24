@@ -2484,7 +2484,8 @@ body.search-overlay {
 }
 
 body.search-overlay:after {
-    position: absolute;
+    /*position: absolute;*/
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 9001;
@@ -4093,6 +4094,10 @@ th {
     th {
       padding: 0 3px;
       font-size: 12px;
+    }
+
+    .search-form .post-list h4,.search-form .post-list li,.search-form .post-list p,.search-form .post-list a {
+        font-size: 1.25rem;
     }
 }
 
