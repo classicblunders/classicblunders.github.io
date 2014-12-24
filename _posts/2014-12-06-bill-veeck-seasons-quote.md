@@ -5,7 +5,7 @@ title: Bill Veeck
 description:
 headline: 
 category: quote
-tags: [seasons, Bill Veeck]
+tags: [seasons, veeck]
 imagefeature:
 comments: true
 mathjax: 

@@ -4,6 +4,7 @@
 <!-- <script src="{{ site.url }}/assets/deploy/parallax.js"></script> -->
 <script type="text/javascript" src="{{ site.url }}/assets/js/waypoints.min.js"></script>
 <script type="text/javascript" src="{{ site.url }}/assets/js/script.js"></script>
+<script type="text/javascript" src="{{ site.url }}/assets/js/plugins/jekyll-search.js"></script>
 <script type='text/javascript'>$(document).ready(function(){$(".time").text(function(a,b){return Math.round(parseFloat(b))})});</script>
 
 
@@ -35,29 +36,46 @@ $("a#click-pages").click(function(){
 
 {% if site.search %}
 <!-- Jekyll Simple Search option -->
-<script>
-  $(document).ready(function() {
-      $('.search-field').simpleJekyllSearch({
-          // searchInput: document.getElementById('search-input'),
-          // resultsContainer: document.getElementById('results-container'),
-          jsonFile : '{{ site.url }}/search.json',
-          searchResults : '.search-results',
-          template : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
-          noResults: '<p>Nothing found.</p>'
-        });
-  });
 
+<script type="text/javascript">
+      SimpleJekyllSearch.init({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        dataSource: '{{ site.baseurl }}/search.json',
+        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+        noResultsText: '<p>No results found</p>'
+        // limit: 10,
+        // fuzzy: true,
+      })
+</script>
+
+<script>
   // $(document).ready(function() {
-  //     $('.search-field').simpleJekyllSearch({
+  //     $('.search-field').SimpleJekyllSearch({
   //         searchInput: document.getElementById('search-input'),
   //         resultsContainer: document.getElementById('results-container'),
-  //         dataSource: '{{ site.url }}/search.json',
-  //         searchResultTemplate: '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
-  //         noResultsText: 'No results found',
-  //         limit: 10,
-  //         fuzzy: false,
-  //       })
+  //         // resultsContainer: '.search-results',
+  //         jsonFile : '{{ site.url }}/search.json',
+  //         // searchResults : '.search-results',
+  //         // searchResults : document.getElementById('results-container'),
+  //         template : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
+  //         noResults: '<p>Nothing found.</p>'
+  //       });
+  // });
+
+  // $(document).ready(function() {
+  //     $('.search-field').SimpleJekyllSearch({
+  //   searchInput: document.getElementById('search-input'),
+  //   resultsContainer: document.getElementById('results-container'),
+  //   dataSource: '{{ site.url }}/search.json',
+  //   searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+  //   noResultsText: 'No results found',
+  //   limit: 10,
+  //   fuzzy: false,
+  //        })
   //   });
+
+  
 
   (function( $, window, undefined ) {
     
