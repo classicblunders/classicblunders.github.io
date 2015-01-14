@@ -1,7 +1,8 @@
 title:            Classic Blunders
-description:      INCONCEIVABLE!
+# description:      INCONCEIVABLE!
 # update logo.html with list of rotating logos
-logo:             Macintosh_Classic_II.png
+logo:
+#  Macintosh_Classic_II.png
 # omikron.png
 disqus_shortname: classicblunders
 share:            true
@@ -13,10 +14,10 @@ readtime:         true
 # Specify the average Words per minute. If not defined, 180 will be used
 wpm:				      200
 # Turn on or off the fin animations in the header and footer
-triangleheader:		false
-animated_fins:	  false
+# triangleheader:		false
+# animated_fins:	  false
 # Specify the fin color in RGB value
-fin_color:        "255,255,255"
+# fin_color:        "255,255,255"
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
@@ -52,12 +53,13 @@ bing_verify:
 # Links to include in footer navigation
 # For external links add external: true
 links:
-  - title: Home
+  - title: <i class="icon-home"></i> Home
     url: /
     external: false
-    icon: home
   # - title: <i class="icon-book"></i> Documentation
     # url: /documentation
+  - title: Fountainhead
+    url: /fountainhead
   - title: Categories
     url: /categories
   - title: Tags

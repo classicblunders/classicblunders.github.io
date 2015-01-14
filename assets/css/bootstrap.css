@@ -644,7 +644,7 @@ blockquote footer,
 blockquote small,
 blockquote .small {
   display: block;
-  font-size: 80%;
+  /*font-size: 80%;*/
   line-height: 1.42857143;
   color: #999;
 }
