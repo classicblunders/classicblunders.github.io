@@ -674,11 +674,11 @@ html {
   /*background-attachment: scroll;*/
   background-attachment: fixed;
 }
-@media (max-width: 1024px) {
+/*@media (max-width: 1024px) {
   .blog-background {
     background-attachment: scroll;
   }
-}
+}*/
 /* - Inner allignment - */
 .inner {
   display: table-cell;
