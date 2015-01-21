@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Introducing Fountainhead
-description: inconceivable!
-headline: Just write
+# description: inconceivable!
+# headline: Just write
 categories: screenwriting
 type:
 tags: 

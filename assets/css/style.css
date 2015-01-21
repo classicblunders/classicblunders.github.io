@@ -429,7 +429,7 @@ blockquote:before {
 #masthead h2,
 #footer p,
 #masthead p {
-  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.75);
+  /*text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.75);*/
 }
 #footer h1,
 #masthead h1,
@@ -466,7 +466,7 @@ html {
   height: 50%;
   width: 100%;
   padding: 0;
-  margin-bottom: 48px;
+  margin-bottom: 8px;
   box-sizing: border-box;
 }
 #masthead.align-left {
@@ -499,6 +499,7 @@ html {
   line-height: 64px;
   text-transform: uppercase;
   margin-bottom: 12px;
+  text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 10px #ff00de, 0 0 15px #ff00de, 0 0 20px #ff00de, 0 0 30px #ff00de;
 }
 .blog-title span {
   display: block;
