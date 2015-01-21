@@ -32,11 +32,11 @@ Help documentation can also be found within Sublime Text at: `Tools > Fountainhe
 ## <a name="contents"></a>Contents
 
 1. [Why Fountain?](#why-fountain)
-- [Installation](#installation)
-- [Quickstart](#quickstart)
-- [Symbol Dictionary](#symbol-dictionary)
-- [Fountain Syntax](#fountain-syntax)
-- [Features](#features)
+1. [Installation](#installation)
+1. [Quickstart](#quickstart)
+1. [Symbol Dictionary](#symbol-dictionary)
+1. [Fountain Syntax](#fountain-syntax)
+1. [Features](#features)
     - [Automatic Capitalization and Line Spacing](#auto-cap)
     - [Automatic Escaping of Parentheses, Boneyard, and Notes](#auto-escape)
     - [Color Schemes](#color-schemes)
@@ -50,11 +50,11 @@ Help documentation can also be found within Sublime Text at: `Tools > Fountainhe
     - [Show/Hide Boneyard, Synopses, and Notes](#show-hide)
     - [Text Emphasis](#text-emphasis)
     - [Distraction Free Mode](#distraction-free-mode)
-- [Settings](#settings)
-- [Key Bindings](#key-bindings)
-- [FAQ](#faq)
-- [Contribute](#contribute)
-- [License](#license)
+1. [Settings](#settings)
+1. [Key Bindings](#key-bindings)
+1. [FAQ](#faq)
+1. [Contribute](#contribute)
+1. [License](#license)
 
 ## <a name="why-fountain"></a>Why Fountain?
 
@@ -64,17 +64,17 @@ John August gives a great explanation on [the benefits of writing in Fountain.](
 
 ### Option A: Package Control
 1. Download and install [Sublime Text](http://www.sublimetext.com).
-- Install [Package Control](https://sublime.wbond.net/installation).
-- Select **Package Control: Install Package** from `Tools > Command Palette` (⇧⌘P / ⇧⌃P).
-- Select **Fountainhead**.
+1. Install [Package Control](https://sublime.wbond.net/installation).
+1. Select **Package Control: Install Package** from `Tools > Command Palette` (⇧⌘P / ⇧⌃P).
+1. Select **Fountainhead**.
 
 ### Option B: GitHub
 1. Download and install [Sublime Text](http://www.sublimetext.com).
-- [Download the ZIP of this repository](https://github.com/derickc/Fountainhead/archive/master.zip) and uncompress it.
-- Move the uncompressed **Fountainhead** folder to the appropriate packages directory:
+1. [Download the ZIP of this repository](https://github.com/derickc/Fountainhead/archive/master.zip) and uncompress it.
+1. Move the uncompressed **Fountainhead** folder to the appropriate packages directory:
     - In Sublime Text, select: `Sublime Text > Preferences > Browse Packages...`
     - Place the **Fountainhead** folder inside the open **Packages** directory.
-- Relaunch **Sublime Text**.
+1. Relaunch **Sublime Text**.
 
 ##### [Back to Contents](#contents)
 
@@ -82,11 +82,11 @@ John August gives a great explanation on [the benefits of writing in Fountain.](
 
 1. Open or create a new `.fountain` file.
     - If creating a new file, first save the file with a `.fountain` filename extension.
-- Verify that "Fountainhead" appears in the bottom right-hand corner.
+1. Verify that "Fountainhead" appears in the bottom right-hand corner.
     - If it doesn't, you can click on the offending syntax and change it to `Fountainhead`, or you can use the menu: `View > Syntax > Open all with current extension as > Fountainhead`.
-- Wait for the `CHARACTERS FOUND!` and `SCENES FOUND!` text to appear in the bottom left-hand corner, letting you know that everything has loaded properly.
+1. Wait for the `CHARACTERS FOUND!` and `SCENES FOUND!` text to appear in the bottom left-hand corner, letting you know that everything has loaded properly.
     - *The text will not appear if you have disabled the Character and Scene Lists options in Fountainhead settings.*
-- Write!
+1. Write!
     - Only action and dialogue sentences need to begin with uppercase letters. Starting everything else with lowercase letters will allow character and scene heading autocompletion suggestions to appear.
         - The `Space` key will cause the autocomplete window to close, so write without spaces to keep the window open.
         - Pressing the `Tab` key will select the highlighted autocomplete selection.
@@ -97,7 +97,7 @@ John August gives a great explanation on [the benefits of writing in Fountain.](
     - Instructions to change settings are in: `Tools > Fountainhead > Preferences > Fountainhead Settings - Default`, and can also be found in the [Settings](#settings) section of this document.
         - Additional settings that are off by default can be activated, like auto-save.
     - The window will automatically scroll down once you reach the bottom.
-- Customize Fountainhead by picking a [color scheme](#color-schemes).
+1. Customize Fountainhead by picking a [color scheme](#color-schemes).
 
 
 ##### [Back to Contents](#contents)
@@ -162,7 +162,8 @@ Contact: | `Contact:` **Contact Info**
 
 ###Example:
 
-```
+<div>
+<pre>
 Title:
     Title 1
     Title 2
@@ -190,7 +191,8 @@ Dialogue.
 CUT TO:
 
 .Scene Heading
-```
+</pre>
+</div>
 
 ##### [Back to Contents](#contents)
 
@@ -266,10 +268,10 @@ You may have to close (*save first!*) and re-open your screenplay if your color 
 Characters are remembered and can be autocompleted:
 
 1. When a document is first loaded, wait for the `CHARACTERS FOUND!` to appear. This process generally takes less than a second.
-- Begin a line with any lowercase letter.\*
-- When the autocomplete window appears, highlight the desired character by using ↑/↓, or by typing more letters of the character's name.
+1. Begin a line with any lowercase letter.\*
+1. When the autocomplete window appears, highlight the desired character by using ↑/↓, or by typing more letters of the character's name.
     - Pressing the `Space` or `Esc` key will cancel the autocompletion. If your name has a space in it, just think of it as being one long name and avoid the `Space` key like a cliché.
-- Press `Tab` to accept the autocompletion.\*\*
+1. Press `Tab` to accept the autocompletion.\*\*
     - Pressing `Return` will only produce a newline, and **not** accept the autocompletion.
 
 \* This also works for previously entered `@` character names that require lowercase letters.
@@ -291,10 +293,10 @@ or
 Scenes are remembered and can be autocompleted:
 
 1. When a document is first loaded, wait for the `SCENES FOUND!` to appear. This process generally takes less than a second.
-- Begin a line with any lowercase letter or a period.
-- When the autocomplete window appears, highlight the desired scene by using ↑/↓, or by typing more letters of the scene heading.
+1. Begin a line with any lowercase letter or a period.
+1. When the autocomplete window appears, highlight the desired scene by using ↑/↓, or by typing more letters of the scene heading.
     - Pressing the `Space` or `Esc` key will cancel the autocompletion, so skip pressing the `Space` key.
-- Press `Tab` to accept the autocompletion.\*
+1. Press `Tab` to accept the autocompletion.\*
     - Pressing `Return` will only produce a newline, and **not** accept the autocompletion.
 
 \* If you don't want any of the suggestions, just write like normal. You can close the window by pressing `Esc`.
