@@ -16,4 +16,6 @@ imagefeature: GoldenGate.jpg
 > Never delegate understanding.
 > <small>Charles Eames</small>
 
+I am a product manager who has spent most of his career in video games. After various brushes with death (vs. man, society, nature, and self!), I realized that I needed to get my priorities in order and turn my *somedays* into *todays*. Hopefully the tales of my journey are entertaining, and occasionally educational.
+
 Email: derick at unterrible dot com
