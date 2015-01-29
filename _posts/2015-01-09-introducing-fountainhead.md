@@ -31,7 +31,7 @@ Help documentation can also be found within Sublime Text at: `Tools > Fountainhe
 
 ## <a name="contents"></a>Contents
 
-*Note: Current documentation can be viewed in the README section at [https://github.com/derickc/Fountainhead](https://github.com/derickc/Fountainhead) in the README section.*
+*Note: Current documentation can be viewed in the README section at [https://github.com/derickc/Fountainhead](https://github.com/derickc/Fountainhead).*
 
 1. [Why Fountain?](#why-fountain)
 1. [Installation](#installation)
