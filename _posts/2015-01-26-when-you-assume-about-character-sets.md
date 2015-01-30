@@ -18,7 +18,7 @@ Recently, a user of [Fountainhead](/fountainhead) let me know that writing accen
 
 Solving the syntax highlighting was relatively painless, though I did learn something interesting while testing out that letters are converted between lowercase and uppercase: ß (sharp s) is the only letter in the Latin alphabet that [has no traditional uppercase form](http://en.wikipedia.org/wiki/Capital_ẞ).
 
-Sublime Looking at Sublime Text's console, and seeing:
+Looking at Sublime Text's console, and seeing:
 `UnicodeEncodeError: 'ascii' codec can't encode character...`,
 it became apparent that while the text strings are using UTF-8 character mapping, the file they were being written to is being encoded as ASCII. My mistake was thinking that just because a certain character set is used to display a string of text, it doesn't mean that it will automatically be encoded as such when written to a file. The solution was to make sure that files are always encoded as UTF-8. Luckily [Python](https://docs.python.org/3.4/library/codecs.html) (and [Stack Overflow](http://stackoverflow.com/a/1207836)!) makes this easy:
 {% highlight python %}
