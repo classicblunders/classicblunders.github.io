@@ -16,7 +16,7 @@ mathjax:
 
 <div class="opendyslexic">
 <p>
-I'm always on the lookout for new typefaces (<a href="http://www.fastcodesign.com/3028971/whats-the-difference-between-a-font-and-a-typeface">not to be confused with font</a>) to add to <a href="http://www.classicblunders.com/fountainhead">Fountainhead</a> as well as for my own personal use.
+I'm always on the lookout for new typefaces (<a href="http://www.fastcodesign.com/3028971/whats-the-difference-between-a-font-and-a-typeface">not to be confused with font</a>) to add to <a href="http://www.classicblunders.com/fountainhead">Fountainhead</a>, as well as for my own personal use.
 </p>
 
 <p>
