@@ -908,6 +908,37 @@ h6.lighter {
   -ms-transform: translateY(0%);
   transform: translateY(0%);
 }
+/* OpenDyslexic Font */
+
+@font-face {
+  font-family: 'OpenDyslexic';
+  src: url('../font/OpenDyslexic-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('../font/OpenDyslexic-Bold.otf') format('opentype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('../font/OpenDyslexic-Italic.otf') format('opentype');
+    font-style: italic;
+}
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('../font/OpenDyslexic-BoldItalic.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+.opendyslexic {
+  font-family: "OpenDyslexic", sans-serif;
+  font-size: 110%;
+}
+
 /*!
  *  Font Awesome 3.2.1
  *  the iconic font designed for Bootstrap
@@ -3932,7 +3963,7 @@ a#slide{
     color:#262626;
     background:#fff;
     border-radius:3px;
-    z-index:31
+    z-index:31;
     }
 
 #slide:hover {
@@ -3950,19 +3981,19 @@ a#slide:hover {
     }*/
 
 a#slide:after{
-    content:"Menu"
+    content:"Menu";
     }
 
 a#slide.slide:after{
     position:absolute;
     content:"Close";
-    top:0px;
+ /*   top:0px;
     left:50%;
     width:80px;
-    height:80px;
+    height:80px;*/
     margin:0 0 0 -45px;
-    font:40px "icon" !important;
-    vertical-align:middle
+    /*font:40px "icon" !important;*/
+/*    vertical-align:middle*/
     }
 
 /*      Sidebar     */
@@ -4155,9 +4186,9 @@ th {
       font-size: 0.8rem;
     }
 
-    .container {
+    /*.container {
       padding: 0 3px;
-    }
+    }*/
 }
 
 /* Parallax.js*/
