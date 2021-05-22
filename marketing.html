@@ -1,0 +1,36 @@
+---
+layout: pageminimal
+permalink: /marketing/index.html
+title: Marketing
+description: "Marketing for app"
+tags: [Marketing]
+headline: Spend time writing, not formatting
+imagefeature: vibrant-kiss-nyc-tom-eversley.jpg
+---
+
+<p>
+Contextual screenwriting environment that leverages the speed of <a href="http://www.sublimetext.com">Sublime Text</a> and the readability of <a href="http://fountain.io">Fountain</a>, enabling the user to just write.
+</p>
+
+<p>
+<a href="https://github.com/derickc/fountainhead">Available on GitHub.</a>
+</p>
+
+{% for tag in site.tags %}
+    {% assign fountainhead_tag = tag[0] %}
+    {% if fountainhead_tag == "fountainhead" %}
+    <h2 id="{{ tag[0] }}" style="color: #c91b26">{{ tag[0] }} posts:</h2>
+    <ul class="post-list">
+        {% assign pages_list = tag[1] %}  
+        {% for post in pages_list %}
+            {% if post.title != null %}
+            {% if group == null or group == post.group %}
+            <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></a></li>
+            {% endif %}
+            {% endif %}
+        {% endfor %}
+        {% assign pages_list = nil %}
+        {% assign group = nil %}
+    </ul>
+    {% endif %}
+{% endfor %}
